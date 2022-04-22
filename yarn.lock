@@ -113,10 +113,15 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
-"@types/node@*", "@types/node@^17.0.16":
+"@types/node@*":
   version "17.0.23"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.23.tgz#3b41a6e643589ac6442bdbd7a4a3ded62f33f7da"
   integrity sha512-UxDxWn7dl97rKVeVS61vErvw086aCYhDLyvRQZ5Rk65rZKepaFdm53GeqXaKBuOhED4e9uWq34IC3TdSdJJ2Gw==
+
+"@types/node@^17.0.25":
+  version "17.0.25"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.25.tgz#527051f3c2f77aa52e5dc74e45a3da5fb2301448"
+  integrity sha512-wANk6fBrUwdpY4isjWrKTufkrXdu1D2YHCot2fD/DfWxF5sMrVSA+KN7ydckvaTCh0HiqX9IVl0L5/ZoXg5M7w==
 
 abbrev@1:
   version "1.1.1"
@@ -628,10 +633,10 @@ eslint-visitor-keys@^3.3.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz#f6480fa6b1f30efe2d1968aa8ac745b862469826"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@^8.12.0:
-  version "8.12.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.12.0.tgz#c7a5bd1cfa09079aae64c9076c07eada66a46e8e"
-  integrity sha512-it1oBL9alZg1S8UycLm5YDMAkIhtH6FtAzuZs6YvoGVldWjbS08BkAdb/ymP9LlAyq8koANu32U7Ib/w+UNh8Q==
+eslint@^8.13.0:
+  version "8.13.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.13.0.tgz#6fcea43b6811e655410f5626cfcf328016badcd7"
+  integrity sha512-D+Xei61eInqauAyTJ6C0q6x9mx7kTUC1KZ0m0LSEexR0V+e94K12LmWX076ZIsldwfQ2RONdaJe0re0TRGQbRQ==
   dependencies:
     "@eslint/eslintrc" "^1.2.1"
     "@humanwhocodes/config-array" "^0.9.2"
@@ -732,10 +737,10 @@ fast-json-stringify@^2.5.2:
     rfdc "^1.2.0"
     string-similarity "^4.0.1"
 
-fast-jwt@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/fast-jwt/-/fast-jwt-1.5.1.tgz#642a1e8915b5a2898f5e304abf9a57dffdb0ff00"
-  integrity sha512-XmsUqmyGoyMH5JB8dLFkMs7v2aEYdNj9UdZ/SZTyd211KVkvojnd7p9HT/9UXzMdF2s6IS0cSb7gUcOQrJq2GQ==
+fast-jwt@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/fast-jwt/-/fast-jwt-1.5.3.tgz#0dcf27be0424a1d7dbf9379d4e3a36f117f73534"
+  integrity sha512-LPFsPKtADFIYq8RKm6GJLcBYdkxxZeY9mHK2z+QWFGhBkI6ns6R74icpfqtNRmj3zfA9ERJm4mzKTs2Vb7GPww==
   dependencies:
     asn1.js "^5.3.0"
     ecdsa-sig-formatter "^1.0.11"
@@ -779,10 +784,10 @@ fastify-static@^4.6.1:
     readable-stream "^3.4.0"
     send "^0.17.1"
 
-fastify@^3.27.4:
-  version "3.27.4"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.27.4.tgz#67ffd61b5bea74768a7de28dbef5b6bc58f9e953"
-  integrity sha512-SOfnHBxG9zxCSIvt6aHoR/cao8QBddWmGP/mb5KQKRc+KI1kB7b79M2hCDOTSyHdLAF2OX+oI6X3weeLc+MqKg==
+fastify@^3.28.0:
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.28.0.tgz#14d939a2f176b82af1094de7abcb0b2d83bcff8f"
+  integrity sha512-LAQtGllpkRe8L6Tpf3zdbvXzXFOrgaWV3Tbvp3xMv9ngcr9zht9U2/mo5zq9qp9kplSiBJ0w43aVAMqv6PBMbw==
   dependencies:
     "@fastify/ajv-compiler" "^1.0.0"
     abstract-logging "^2.0.0"
@@ -1207,10 +1212,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.3.1.tgz#f276b1b53fd9a740a60e666a541a7f6dbed4155a"
-  integrity sha512-I8vnjOmhXsMSlNMZlMkSOvgrxKJl0uOsEzdGgGNZuZPaS9KlefpE9KV95QFftlJSC+1UyCC9/I69R02cz/zcCA==
+luxon@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.3.2.tgz#5f2f3002b8c39b60a7b7ad24b2a85d90dc5db49c"
+  integrity sha512-MlAQQVMFhGk4WUA6gpfsy0QycnKP0+NlCBJRVRNPxxSIbjrCbQ65nrpJD3FVyJNZLuJ0uoqL57ye6BmDYgHaSw==
 
 make-dir@^3.0.0:
   version "3.1.0"
@@ -1411,10 +1416,10 @@ pino-abstract-transport@^0.5.0, pino-abstract-transport@v0.5.0:
     duplexify "^4.1.2"
     split2 "^4.0.0"
 
-pino-pretty@^7.6.0:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-7.6.0.tgz#527a51fb1b01e138c399d90b2b925e91a66b11a8"
-  integrity sha512-sCthHDn8umVSlxEsOFakXZTNoCiTKYEuPwPXMDGq29QDt/38HEmVIKLxmgFLLg1RkLl4Dfxzp9Spz9pAtSBq0Q==
+pino-pretty@^7.6.1:
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/pino-pretty/-/pino-pretty-7.6.1.tgz#42d20611050ad80d619edaf132c6d81d40f81d98"
+  integrity sha512-H7N6ZYkiyrfwBGW9CSjx0uyO9Q2Lyt73881+OTYk8v3TiTdgN92QHrWlEq/LeWw5XtDP64jeSk3mnc6T+xX9/w==
   dependencies:
     args "^5.0.1"
     colorette "^2.0.7"
@@ -1453,11 +1458,12 @@ pino@^6.13.0:
     quick-format-unescaped "^4.0.3"
     sonic-boom "^1.0.2"
 
-pino@^7.6.5:
-  version "7.9.2"
-  resolved "https://registry.yarnpkg.com/pino/-/pino-7.9.2.tgz#0519ac79b9db17f0c63bb4267f7e8133f5c517ad"
-  integrity sha512-c8wmB2PuhdJurYPRl/eo3+PosHe7Ep6GZvBJFIrp9oV1YRZQ3qm3MujaEolaKUfwX8cDL96WKCWWMedB2drXqw==
+pino@^7.10.0:
+  version "7.10.0"
+  resolved "https://registry.yarnpkg.com/pino/-/pino-7.10.0.tgz#c621a3acf3b7aa50a6156c1b3989d1703666b2b1"
+  integrity sha512-T6R92jy/APDElEuOk0gqa4nds3ZgqFbHde2X0g8XorlyPlVGlr9T5KQphtp72a3ByKOdZMg/gM/0IprpGQfTWg==
   dependencies:
+    atomic-sleep "^1.0.0"
     fast-redact "^3.0.0"
     on-exit-leak-free "^0.2.0"
     pino-abstract-transport v0.5.0
@@ -1467,7 +1473,7 @@ pino@^7.6.5:
     real-require "^0.1.0"
     safe-stable-stringify "^2.1.0"
     sonic-boom "^2.2.1"
-    thread-stream "^0.15.0"
+    thread-stream "^0.15.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -1830,10 +1836,10 @@ text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-thread-stream@^0.15.0:
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/thread-stream/-/thread-stream-0.15.1.tgz#5aba24a35aa5e9e4eb66173826443d7167b34b07"
-  integrity sha512-SCnuIT27gc2h/F/RY2peuC7brgLy+1oXU+7yOIAITz1z5stDpXCF5rAoFcykjuK6ifbTlKAHL7Ccq8oc5Btv1w==
+thread-stream@^0.15.1:
+  version "0.15.2"
+  resolved "https://registry.yarnpkg.com/thread-stream/-/thread-stream-0.15.2.tgz#fb95ad87d2f1e28f07116eb23d85aba3bc0425f4"
+  integrity sha512-UkEhKIg2pD+fjkHQKyJO3yoIvAP3N6RlNFt2dUhcS1FGvCD1cQa1M/PGknCLFIyZdtJOWQjejp7bdNqmN7zwdA==
   dependencies:
     real-require "^0.1.0"
 
