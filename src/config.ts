@@ -15,6 +15,7 @@ export const unauthenticatedPaths: ReadonlyArray<string> =
 export const address = GetEnv.string(`${envKeyPrefix}_HTTP_ADDRESS`, '0.0.0.0');
 export const port = GetEnv.int(`${envKeyPrefix}_HTTP_PORT`, 13005);
 export const cacheSize = GetEnv.int(`${envKeyPrefix}_CACHE_SIZE`, 1000);
+export const shouldPrecompress = GetEnv.boolish(`${envKeyPrefix}_PRECOMPRESS`, false);
 
 if (!FS.statSync(blobPath).isDirectory) {
   throw new Error(`blob path '${blobPath}' is not set or cannot be found.`);
